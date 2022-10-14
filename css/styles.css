@@ -16,7 +16,7 @@
 :root{
     --bg-color: #BF98A1;
     --blanco: #FCFBFB;
-    --texto: #5E5669;
+    --texto: #534a5f;
     --titulos: 26px;
     --subtitulos: 20px;
     --texto-fz: 16px;
@@ -111,7 +111,7 @@ img {
     align-items: center;
 }
 
-#productos h1 {
+#productos h2 {
     color: var(--blanco);
     margin-bottom: 30px;
     font-size: var(--titulos);
@@ -155,4 +155,43 @@ span img {
 
 .vinoVenecia img{
     width: 350px;
+}
+
+
+/*--------PROCESO---------*/
+/*--------FAQ---------*/
+
+
+#faq{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+#faq h2 {
+    color: var(--blanco);
+    margin-bottom: 30px;
+    font-size: var(--titulos);
+}
+
+.preguntas {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#faq h3 {
+    font-size: var(--texto-fz);
+    color: var(--blanco);
+}
+
+#faq p {
+    margin-top: 10px;
+    color: var(--texto);
+    font-size: var(--texto-fz);
+    text-align: justify;
 }
