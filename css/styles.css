@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'MachineatDemo';
+    src: url('../ignore/machineat/Machineat_Demo.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --bg-color: #BF98A1;
+    --blanco: #FCFBFB;
+    --texto: #5E5669;
+    --titulos: 26px;
+    --subtitulos: 20px;
+    --texto-fz: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Simonetta', cursive;
+    background: var(--bg-color);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #8F676F;
+    box-shadow: 0 0 10px 10px #582D30;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    align-items: center;
+    color: var(--blanco);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100px;
+}
+
+header h1 {
+    font-family: 'MachineatDemo';
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    padding: 2px;
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: var(--texto-fz);
+}
+
+li{
+    
+    margin: 8px 0;
+}
+
+section{
+    padding-top: 120px;
+    z-index: 1;
+    overflow: auto;
+}
+
+img {
+    width: 200px;
+}
+
+/*--------HOME---------*/
+#home{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+#home h1{
+    font-family: 'MachineatDemo';
+    font-weight: 300;
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+
+#home p{
+    margin: 20px 0;
+}
+
+/*--------PRODUCTOS---------*/
+
+#productos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+#productos h1 {
+    color: var(--blanco);
+    margin-bottom: 30px;
+    font-size: var(--titulos);
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+span img {
+    width: 200px;
+}
+
+span h3 {
+    color: black;
+    font-size: var(--subtitulos);
+}
+
+span p {
+    color: var(--texto);
+    font-size: var(--texto-fz);
+}
