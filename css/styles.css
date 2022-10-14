@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Simonetta:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Simonetta:wght@400;900&display=swap');
+
 
 *{
     margin: 0;
@@ -6,12 +7,12 @@
     box-sizing: border-box;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'MachineatDemo';
     src: url('../ignore/machineat/Machineat_Demo.ttf') format('ttf');
     font-style: normal;
     font-weight: normal;
-}
+}*/
 
 :root{
     --bg-color: #d3b6bd;
@@ -48,10 +49,10 @@ header {
 }
 
 header h1 a {
-    font-family: 'MachineatDemo';
+    font-family: 'Great Vibes', cursive;
+
     font-weight: 100;
-    letter-spacing: 2px;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 ul{
@@ -92,10 +93,10 @@ img {
 }
 
 #home h1{
-    font-family: 'MachineatDemo';
+    font-family: 'Great Vibes', cursive;
+
     font-weight: 300;
-    font-size: 64px;
-    letter-spacing: 2px;
+    font-size: 70px;
 }
 
 #home p{
@@ -340,7 +341,9 @@ span img {
         gap: 150px;
 
     }
-    
+    header h1 a {
+        font-size: 50px;
+    }
     
     #equipo img {
         width: 500px;
@@ -362,10 +365,7 @@ span img {
     }
 
     #home h1{
-        font-family: 'MachineatDemo';
-        font-weight: 300;
-        font-size: 78px;
-        letter-spacing: 2px;
+        font-size: 120px;
     }
     #home{
         flex-direction: row;
