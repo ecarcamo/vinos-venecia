@@ -47,7 +47,7 @@ header {
     z-index: 100px;
 }
 
-header h1 {
+header h1 a {
     font-family: 'MachineatDemo';
     font-weight: 100;
     letter-spacing: 2px;
@@ -159,6 +159,46 @@ span img {
 
 
 /*--------PROCESO---------*/
+
+
+#procesoProduccion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+#procesoProduccion h2 {
+    color: var(--blanco);
+    margin-bottom: 30px;
+    font-size: var(--titulos);
+}
+
+#procesoProduccion img {
+    width: 250px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+.proceso {
+    justify-content: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+#procesoProduccion .tarjeta p {
+    margin: 20px 0 40px 0;
+    color: var(--texto);
+    font-size: var(--texto-fz);
+    text-align: justify;
+    width: 250px;
+}
+
+
 /*--------FAQ---------*/
 
 
@@ -194,4 +234,35 @@ span img {
     color: var(--texto);
     font-size: var(--texto-fz);
     text-align: justify;
+}
+
+
+/*--------EQUIPO---------*/
+
+#equipo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#equipo h2 {
+    color: var(--blanco);
+    font-size: var(--titulos);
+}
+
+#equipo img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px #582D30;
+    margin: 30px 0;
+}
+
+#equipo p {
+    width: 80%;
+    text-align: center;
+    color: var(--texto);
+    font-size: var(--texto-fz);
 }
