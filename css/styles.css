@@ -14,11 +14,11 @@
 }
 
 :root{
-    --bg-color: #BF98A1;
+    --bg-color: #d3b6bd;
     --blanco: #FCFBFB;
     --texto: #534a5f;
     --titulos: 26px;
-    --subtitulos: 20px;
+    --subtitulos: 18px;
     --texto-fz: 16px;
 }
 
@@ -136,12 +136,14 @@ img {
 }
 
 span img {
-    width: 200px;
+    width: 55px;
+    margin-bottom: 10px;
 }
 
 #productos span h3 {
     color: black;
     font-size: var(--subtitulos);
+    text-align: center;
 }
 
 #productos span p {
@@ -154,7 +156,8 @@ span img {
 }
 
 .vinoVenecia img{
-    width: 350px;
+    width: 280px;
+    border-radius: 20px;
 }
 
 
@@ -225,7 +228,7 @@ span img {
 }
 
 #faq h3 {
-    font-size: var(--texto-fz);
+    font-size: var(--subtitulos);
     color: var(--blanco);
 }
 
